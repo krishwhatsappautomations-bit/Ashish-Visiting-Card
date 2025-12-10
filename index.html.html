@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Visiting Card - Ashish Mandaogane</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f1c2e; /* Navy Dark */
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    max-width: 430px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #112036;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e8b84d; /* Gold */
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.role {
+    font-size: 20px;
+    color: #e8b84d;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #e8b84d;
+}
+
+/* BUTTONS */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    background: #1c2942;
+    color: white;
+    border: 1px solid #26354f;
+    text-align: left;
+}
+
+.btn:hover {
+    background: #26354f;
+}
+
+.btn .icon {
+    color: #e8b84d;
+}
+
+/* QR BOX */
+.qr-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qr {
+    width: 160px;
+    border-radius: 12px;
+    background: white;
+    padding: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="title">RADHA ROUTES</div>
+
+    <div class="name">Ashish Mandaogane</div>
+    <div class="role">Founder</div>
+
+    <div class="info">
+        <p><span class="icon">📞</span>8788792420</p>
+        <p><span class="icon">✉️</span>routesradha@gmail.com</p>
+    </div>
+
+    <a class="btn" href="tel:8788792420">
+        <span class="icon">📞</span> Call Now
+    </a>
+
+    <a class="btn" href="https://wa.me/918788792420">
+        <span class="icon">💬</span> WhatsApp Chat
+    </a>
+
+    <a class="btn" href="Ashish Mandaogane.vcf">
+        <span class="icon">💾</span> Save Contact
+    </a>
+
+    <div class="qr-box">
+        <img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/918788792420">
+        <p>Scan to WhatsApp</p>
+    </div>
+
+</div>
+
+</body>
+</html>
